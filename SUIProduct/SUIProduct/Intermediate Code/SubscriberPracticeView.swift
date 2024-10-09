@@ -20,6 +20,7 @@ class SubscriberViewModel: ObservableObject{
     init() {
         setUpTimer()
         addTextFieldSubscriber()
+        addButtonSubscriber()
     }
     
     func addTextFieldSubscriber(){

@@ -29,7 +29,8 @@ struct SUIProductApp: App {
 //            WeakSelfPracticeView()
 //            CodablePracticeView()
 //            DownloadWithEscapingPracticeView()
-            DownloadWithCombinePracticeView()
+//            DownloadWithCombinePracticeView()
+            DownloadingPracticeView()
         }
     }
 }
