@@ -14,8 +14,7 @@ struct TernaryOperatorsPracticeView: View {
             Button("Button") {
                 isStartingState.toggle()
             }
-            Text(isStartingState ? "STARTING STATS!!" : "ENDING STATE"
-            )
+            Text(isStartingState ? "STARTING STATS!!" : "ENDING STATE")
             RoundedRectangle(cornerRadius: isStartingState ? 25 : 0)
                 .fill(isStartingState ? .red : .blue)
                 .frame(width: isStartingState ? 200 : 55,height: isStartingState ? 400:50)

@@ -20,7 +20,8 @@ struct ForEachPracticeView: View {
 //                    Text("index is :\(index)")
 //                }
 //            }
-            ForEach(data.indices,id:\.self) { index in
+            ForEach(data.indices
+                    ,id:\.self) { index in
                 Text("\(data[index]): \(index)")
             }
         })

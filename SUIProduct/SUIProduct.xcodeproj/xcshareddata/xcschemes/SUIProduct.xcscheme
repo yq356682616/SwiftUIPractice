@@ -52,6 +52,17 @@
                ReferencedContainer = "container:SUIProduct.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D3B1BBD52CC25C0100F08354"
+               BuildableName = "SUIProductTests_Tests.xctest"
+               BlueprintName = "SUIProductTests_Tests"
+               ReferencedContainer = "container:SUIProduct.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -74,10 +85,21 @@
             ReferencedContainer = "container:SUIProduct.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-UITest_startSignedIn"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "IDEPreferLogStreaming"
             value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "-UITest_startSignedIn2"
+            value = "true"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>

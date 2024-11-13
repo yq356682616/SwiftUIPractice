@@ -29,7 +29,6 @@ struct GridPracticeView: View {
                 Section {
                     ForEach(0..<50) { index in
                         Rectangle()
-                        
                             .frame(height: 150)
                     }
                 } header: {
